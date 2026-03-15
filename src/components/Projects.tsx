@@ -4,14 +4,34 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "Avyra",
+    title: "Avyra (v2)",
+    subtitle: "Retrospective Chart Extraction",
+    description:
+      "Agentic tool that extracts clinical variables from Epic EHR data using FHIR APIs and Claude. Runs an autonomous extraction loop — fetching structured patient data, searching clinical documents, and returning results with source citations and confidence scores.",
+    problem: "Clinical research teams spend weeks manually pulling variables from EHR records for retrospective studies.",
+    tech: ["Python", "Claude", "Epic FHIR API", "Streamlit", "SMART Backend Services"],
+    link: "https://github.com/druvsarin1/avyra-pt2",
+    gradient: "from-blue-500/20 to-cyan-500/20",
+  },
+  {
+    title: "Avyra (v1)",
     subtitle: "Healthcare Document Intelligence",
     description:
       "Multi-agent pipeline that transforms unstructured medical documents into FHIR-compliant structured data. 6 specialized AI agents handle OCR, entity extraction, and medical coding.",
     problem: "80% of healthcare data is unstructured, costing hospitals thousands of hours in manual transcription.",
     tech: ["Python", "FastAPI", "Claude 3.5", "AWS Textract", "spaCy", "Docker"],
     link: "https://github.com/druvsarin1/avyra",
-    gradient: "from-blue-500/20 to-cyan-500/20",
+    gradient: "from-teal-500/20 to-blue-500/20",
+  },
+  {
+    title: "Synced Ticketing Platform",
+    subtitle: "Built for My Event Company",
+    description:
+      "I run an event company (@synced_official) and built this platform from scratch to cut out third-party ticketing fees. Handles tiered ticket sales with access codes, Stripe checkout, QR code generation, and real-time check-in scanning backed by Supabase.",
+    problem: "Platforms like Eventbrite and Ticketmaster take a significant cut of every ticket sold — so I built my own.",
+    tech: ["Next.js", "TypeScript", "Stripe", "Supabase", "QR Code", "Resend"],
+    link: "https://github.com/druvsarin1/synced-ticketing-platform",
+    gradient: "from-violet-500/20 to-purple-500/20",
   },
   {
     title: "Voxa",
