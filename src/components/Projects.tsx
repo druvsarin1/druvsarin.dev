@@ -7,7 +7,7 @@ const projects = [
     title: "Avyra (v2)",
     subtitle: "Retrospective Chart Extraction",
     description:
-      "Agentic tool that extracts clinical variables from Epic EHR data using FHIR APIs and Claude. Runs an autonomous extraction loop — fetching structured patient data, searching clinical documents, and returning results with source citations and confidence scores.",
+      "Agentic tool that extracts clinical variables from Epic EHR data using FHIR APIs and Claude. Runs an autonomous extraction loop — fetching structured patient data, searching clinical documents, and returning results with source citations and confidence scores. Currently in talks with heads of orthopedics at Yale, Harvard, USC, and UMich about potential implementation.",
     problem: "Clinical research teams spend weeks manually pulling variables from EHR records for retrospective studies.",
     tech: ["Python", "Claude", "Epic FHIR API", "Streamlit", "SMART Backend Services"],
     link: "https://github.com/druvsarin1/avyra-pt2",

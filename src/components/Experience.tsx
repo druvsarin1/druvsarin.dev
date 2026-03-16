@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const experiences = [
   {
     company: "Travelers",
-    role: "Software Developer",
+    role: "AI Engineer",
     period: "Feb 2025 - Present",
     description:
       "Building AI-powered data intelligence platform using AWS Strands Agents and MCP. Evolved RAG-based SQL generation into sophisticated agentic solution for enterprise data analytics.",
