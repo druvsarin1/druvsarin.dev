@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
-const roles = ["Software Engineer", "Northeastern CS '24"];
+const roles = ["AI Engineer", "Northeastern CS '24"];
 
 // Typewriter effect component
 function TypeWriter({ text, delay = 0 }: { text: string; delay?: number }) {
