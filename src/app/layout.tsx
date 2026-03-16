@@ -13,13 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Druv Sarin | Software Engineer",
-  description: "Software Engineer at Travelers building AI-powered data platforms. Co-founder of Avyra, a healthcare AI startup. Northeastern CS '24.",
-  keywords: ["Software Engineer", "AI", "Machine Learning", "Full Stack", "React", "Python", "AWS"],
+  title: "Druv Sarin | AI Engineer",
+  description: "AI Engineer at Travelers building AI-powered data platforms. Co-founder of Avyra, a healthcare AI startup. Northeastern CS '24.",
+  keywords: ["AI Engineer", "AI", "Machine Learning", "Full Stack", "React", "Python", "AWS"],
   authors: [{ name: "Druv Sarin" }],
   openGraph: {
-    title: "Druv Sarin | Software Engineer",
-    description: "Software Engineer at Travelers building AI-powered data platforms. Co-founder of Avyra.",
+    title: "Druv Sarin | AI Engineer",
+    description: "AI Engineer at Travelers building AI-powered data platforms. Co-founder of Avyra.",
     type: "website",
   },
 };
